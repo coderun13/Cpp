@@ -1,0 +1,16 @@
+Graph - Non Linear Data Structure
+Consisting of vertices and edges
+Edges - Nodes
+Vertex - connecting lines
+Types: Undirectional Graph - No direction is mentioned
+Directed Graph - Direction is mentioned
+Cyclic Grpah - A cycle is present 
+Acyclic graph -  No cycel is present
+Connected Graph -  All components are connected
+Disconnected Graph - All components are not connected
+Complete graph - Every node is connected to each other
+No. of edges in complete graph is nC2 -> n(n-1)/2
+Weighted Graph - weight is given with value(on the edge)  
+Representation methods: Adjacency Matrix  and Adjacency List
+Space and time complexity of Adjacency Matrix is O(v*v)
+Space and time complexity of Adjacency List is O(v+ 2*Element) = O(V+E) worst case E = v*v(for complete graph)
