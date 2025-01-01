@@ -1,0 +1,18 @@
+ * Selection sort -> Repeatedly find min element in the unsorted array and plance it at beginning.
+ * Size of array is n then no. of rounds is n-1
+ * Space complexity - O(1), total - O(n)
+ * Time complexity - O(n*n)
+
+ * Logic
+ * compare with index 0 to last and stor the min element 
+ * replace the smallest element with the index
+ * then compare with next index and repeat the steps
+
+ * Work Flow
+ * let index be 0
+ * start the loop(inner ane outer loop)
+ * outer loop for telling the rounds
+ * inner loop for main logic
+ * compare the element
+ * then increase the index 
+ * and exchange the elements
