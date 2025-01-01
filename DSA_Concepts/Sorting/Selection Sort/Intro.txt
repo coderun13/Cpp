@@ -2,6 +2,7 @@
  * Size of array is n then no. of rounds is n-1
  * Space complexity - O(1), total - O(n)
  * Time complexity - O(n*n)
+ * Index = 0 is compared with all then next index is compared once the smallest element is found then their indexes are swaped.
 
  * Logic
  * compare with index 0 to last and stor the min element 
@@ -16,3 +17,4 @@
  * compare the element
  * then increase the index 
  * and exchange the elements
+ 
