@@ -1,0 +1,23 @@
+Linear data structure used to stored list of values.
+Array is a single memory block with partition.
+Linked list has memory blocks linked to each other.
+Challenges of array -> static size,contiguous memory allocation,inserting and deletion is costly.
+Advantages of a linked list over an array -> dynamic size allocation, non- contiguous memory allocation,insertion and deletion is non expensive.
+Listnode -> block of memory[2 parts][data and next pointer address]
+Head Node -> points to the first node.
+Tail Node -> stores NULL pointer
+Types -> Singly linked list, Doubly linked list, circular linked list.
+Singly linked list -> Every node points to its successor node.
+Doubly linked list -> Every node is connected to next and the previous node. 
+Circular linked list -> The last node points to the head node.
+Indexing is not there in linked list as array.
+
+Traversal in a singly linked list
+Temp = temp -> next 
+Insertion at k th position in a singly linked list.
+add a node at the start and move head to the first.(at start)
+add a node at the end and the node will point to NULL. (at end)
+Traverse till position-> -1 and then to temp-> next (for arbitrary position)
+Time complexity of insertion at the start -> o(1)
+Time complexity of insertion at the end -> o(n), when tail pointer is given then o(1). 
+Time complexity of insertion at arbitary position -> o(n)
