@@ -14,3 +14,4 @@ Weighted Graph - weight is given with value(on the edge)
 Representation methods: Adjacency Matrix  and Adjacency List
 Space and time complexity of Adjacency Matrix is O(v*v)
 Space and time complexity of Adjacency List is O(v+ 2*Element) = O(V+E) worst case E = v*v(for complete graph)
+Traversal: BFS(Breadth First Traversal), DFS(Depth First Traversal) 
