@@ -1,0 +1,19 @@
+In first round the highest number is sent at the end
+no of elements = n
+no of rounds = n-1(for each element)
+Time Complexity- Best Case(O(n)), Worst Case(O(n*n))
+
+* Logic
+Every element is compared in each round
+The last part gets sorted after every round
+if the element is greater than it's next element in each roud then it is swapped
+no of rounds will be n-1
+no of swapping will be n-2
+start i with n- 2 then i >= 0 i--(means the no of swapping is decreased in every round)
+start j with 0 to <=i 
+
+* Work Flow
+take inputs from user for size and elements
+the outer loop will tell about the no of swapping
+the inner loop will compare and swap the elements
+then print the sorted array
