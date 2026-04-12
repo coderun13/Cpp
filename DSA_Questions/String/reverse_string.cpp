@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     char str[] = "snehal";
-    //method
+    // by method
     // cout<<strrev(str);
 
     //iteration
